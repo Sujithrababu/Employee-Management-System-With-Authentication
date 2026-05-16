@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Employee Management System
 
-First, run the development server:
+1. This is a simple Employee Management System made using Next.js and MongoDB.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Admin can signup and login using email and password.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Password is stored in hashed format, not plain text.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. After login, admin can add employee details like name, email, department, salary and joining date.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. Employee list is shown in table format.
 
-## Learn More
+6. Admin can edit employee details and delete employee with confirmation.
 
-To learn more about Next.js, take a look at the following resources:
+7. Search option is added to search employee by name.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+8. Department data is stored separately in MongoDB and used in dropdown.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+9. MongoDB has 3 collections: users, employees and departments.
 
-## Deploy on Vercel
+10. Screenshots are added below.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Screenshots
+<img width="820" height="431" alt="image" src="https://github.com/user-attachments/assets/b30dfb2f-fd97-4763-b910-8addd4ebc398" />
+<img width="1227" height="731" alt="image" src="https://github.com/user-attachments/assets/1c964585-63db-4ada-b025-1735f28b387b" />
+<img width="1112" height="432" alt="image" src="https://github.com/user-attachments/assets/df1ad517-d4d4-409c-85f0-29a4ab6632db" />
+<img width="1121" height="320" alt="image" src="https://github.com/user-attachments/assets/dbf90483-0427-4238-9499-9aaa0652f8f2" />
+<img width="1275" height="326" alt="image" src="https://github.com/user-attachments/assets/3ca2845e-af2a-4531-9383-496a04ec7225" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Mongodb Database Screenshots
+<img width="1187" height="362" alt="image" src="https://github.com/user-attachments/assets/589fac45-e2a1-4e96-b067-ae2cace18478" />
+
+
+
+
